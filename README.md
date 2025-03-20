@@ -1,10 +1,12 @@
 # Account Management Assistant
 
 ## 🚀 Overview
+
 The **Account Management Assistant** is a solution that provides key insights about clients to account/sales managers from digital agencies/IT services companies.
 Powered by Next Best Action (show recommendations) and Agentforce (generate recommendations).
 
 ## 📁 Repository Structure
+
 ```
 📂 force-app
  ├── 📂 main
@@ -23,38 +25,43 @@ Powered by Next Best Action (show recommendations) and Agentforce (generate reco
 ```
 
 ## 🛠️ Setup Instructions
+
 ### Prerequisites
-- Salesforce DX CLI installed
-- Access to a Salesforce Dev Hub
-- A scratch org or sandbox environment
+
+-   Salesforce DX CLI installed
+-   Access to a Salesforce Dev Hub
+-   A scratch org or sandbox environment
 
 ### Installation Steps
+
 1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/your-org/account-management-assistant.git
-   cd account-management-assistant
-   ```
+    ```sh
+    git clone https://github.com/vkhrapski/account-management-assistant.git
+    cd account-management-assistant
+    ```
 1. **Authenticate with Salesforce:**
-   ```sh
-   sfdx auth:web:login -a devhub
-   ```
+    ```sh
+    sfdx auth:web:login -a devhub
+    ```
 1. **Create a new scratch org:**
-   ```sh
-   sfdx force:org:create -f config/project-scratch-def.json -a ama-scratch -s
-   ```
+    ```sh
+    sfdx force:org:create -f config/project-scratch-def.json -a ama-scratch -s
+    ```
 1. **Push metadata to the scratch org:**
-   ```sh
-   sfdx force:source:push
-   ```
+    ```sh
+    sfdx force:source:push
+    ```
 1. **Open the org:**
-   ```sh
-   sfdx force:org:open
-   ```
+    ```sh
+    sfdx force:org:open
+    ```
 
 ## 📌 Key Features
-- Show recommendations to increase revenue and NPS for Accounts.
+
+-   Show recommendations to increase revenue and NPS for Accounts.
 
 ## 📬 Contact
+
 For any questions or support, reach out via GitHub issues or email at `vkhrapski@gmail.com`.
 
 ---
